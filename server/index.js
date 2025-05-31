@@ -5,7 +5,7 @@ import connectDB from './configs/db.js'
 import notesRoute from './routes/notesRoute.js'
 
 const app = express()
-const PORT = process.env.PORT || 8080
+const PORT = process.env.PORT || 5050
 
 connectDB()
 
